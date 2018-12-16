@@ -1,0 +1,22 @@
+type file
+version 1.0.0
+
+id Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator
+title Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator
+
+authors Basisregisters Vlaanderen
+owners agentschap Informatie Vlaanderen <https://vlaanderen.be/informatie-vlaanderen>
+copyright Copyright (c) agentschap Informatie Vlaanderen
+requireLicenseAcceptance false
+projectUrl https://github.com/Informatievlaanderen/hashcode-calculator
+iconUrl https://raw.githubusercontent.com/Informatievlaanderen/build-pipeline/master/logo.png
+licenseUrl https://opensource.org/licenses/MIT
+
+description Calculates hashcode based on given fields.
+
+dependencies
+  framework: netstandard20
+
+files
+  bin\Release\netstandard2.0\Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator.dll => lib\netstandard2.0
+  bin\Release\netstandard2.0\Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator.pdb => lib\netstandard2.0
