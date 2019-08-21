@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/informatievlaanderen/hashcode-calculator/compare/v1.0.4...v1.1.0) (2019-08-21)
+
+
+### Features
+
+* bump to .net 2.2.6 ([5ac6277](https://github.com/informatievlaanderen/hashcode-calculator/commit/5ac6277))
+
 ## [1.0.4](https://github.com/informatievlaanderen/hashcode-calculator/compare/v1.0.3...v1.0.4) (2019-04-25)
 
 ## [1.0.3](https://github.com/informatievlaanderen/hashcode-calculator/compare/v1.0.2...v1.0.3) (2019-04-25)
