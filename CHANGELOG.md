@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/informatievlaanderen/hashcode-calculator/compare/v1.1.0...v1.1.1) (2019-10-28)
+
+
+### Bug Fixes
+
+* upgrade build tools, move to fake 5 ([27395ee](https://github.com/informatievlaanderen/hashcode-calculator/commit/27395ee))
+
 # [1.1.0](https://github.com/informatievlaanderen/hashcode-calculator/compare/v1.0.4...v1.1.0) (2019-08-21)
 
 
