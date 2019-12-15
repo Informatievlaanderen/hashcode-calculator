@@ -15,8 +15,8 @@ licenseUrl https://opensource.org/licenses/MIT
 description Calculates hashcode based on given fields.
 
 dependencies
-  framework: netcoreapp30
+  framework: netcoreapp31
 
 files
-  bin\Release\netcoreapp3.0\Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator.dll => lib\netcoreapp3.0
-  bin\Release\netcoreapp3.0\Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator.pdb => lib\netcoreapp3.0
+  bin\Release\netcoreapp3.1\Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator.dll => lib\netcoreapp3.1
+  bin\Release\netcoreapp3.1\Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator.pdb => lib\netcoreapp3.1
