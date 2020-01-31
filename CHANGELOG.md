@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/informatievlaanderen/hashcode-calculator/compare/v2.1.0...v2.2.0) (2020-01-31)
+
+
+### Features
+
+* upgrade netcoreapp31 and dependencies ([a4c54dc](https://github.com/informatievlaanderen/hashcode-calculator/commit/a4c54dce3554f7610a5b13857a9032cf7c13d1c1))
+
 # [2.1.0](https://github.com/informatievlaanderen/hashcode-calculator/compare/v2.0.0...v2.1.0) (2019-12-15)
 
 
