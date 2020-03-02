@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/informatievlaanderen/hashcode-calculator/compare/v2.2.0...v2.2.1) (2020-03-02)
+
+
+### Bug Fixes
+
+* bump netcore to 3.1.2 ([1cdfc91](https://github.com/informatievlaanderen/hashcode-calculator/commit/1cdfc91e384a334b631665a9223e8d4b95240d12))
+
 # [2.2.0](https://github.com/informatievlaanderen/hashcode-calculator/compare/v2.1.0...v2.2.0) (2020-01-31)
 
 
