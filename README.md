@@ -1,4 +1,4 @@
-# Be.Vlaanderen.Basisregisters.HashCodeCalculator
+# Be.Vlaanderen.Basisregisters.HashCodeCalculator [![Build Status](https://github.com/Informatievlaanderen/hashcode-calculator/workflows/CI/badge.svg)](https://github.com/Informatievlaanderen/hashcode-calculator/actions)
 
 Calculates hashcode based on given fields.
 
