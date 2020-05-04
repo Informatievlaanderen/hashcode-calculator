@@ -1,3 +1,10 @@
+## [2.2.2](https://github.com/informatievlaanderen/hashcode-calculator/compare/v2.2.1...v2.2.2) (2020-05-04)
+
+
+### Bug Fixes
+
+* move to GH-actions ([#4](https://github.com/informatievlaanderen/hashcode-calculator/issues/4)) ([730363b](https://github.com/informatievlaanderen/hashcode-calculator/commit/730363bcda6830a0becf653230270622206187c6))
+
 ## [2.2.1](https://github.com/informatievlaanderen/hashcode-calculator/compare/v2.2.0...v2.2.1) (2020-03-02)
 
 
