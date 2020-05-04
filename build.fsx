@@ -2,7 +2,7 @@
 version 5.241.6
 framework: netstandard20
 source https://api.nuget.org/v3/index.json
-nuget Be.Vlaanderen.Basisregisters.Build.Pipeline 3.3.2 //"
+nuget Be.Vlaanderen.Basisregisters.Build.Pipeline 4.0.6 //"
 
 #load "packages/Be.Vlaanderen.Basisregisters.Build.Pipeline/Content/build-generic.fsx"
 
@@ -21,7 +21,6 @@ let pack = packSolution nugetVersionNumber
 supportedRuntimeIdentifiers <- [ "linux-x64" ]
 
 // Library ------------------------------------------------------------------------
-
 Target.create "Lib_Build" (fun _ -> build "Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator")
 Target.create "Lib_Test" (fun _ -> [ "test" @@ "Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator.Tests" ] |> List.iter testWithDotNet)
 
@@ -29,9 +28,7 @@ Target.create "Lib_Publish" (fun _ -> publish "Be.Vlaanderen.Basisregisters.Util
 Target.create "Lib_Pack" (fun _ -> pack "Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator")
 
 // --------------------------------------------------------------------------------
-
 Target.create "PublishAll" ignore
-
 Target.create "PackageAll" ignore
 
 // Publish ends up with artifacts in the build folder
