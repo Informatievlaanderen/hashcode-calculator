@@ -1,6 +1,6 @@
 {
   "name": "hashcode-calculator",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "description": "Calculates hashcode based on given fields.",
   "author": "Basisregisters Vlaanderen",
   "license": "MIT",
