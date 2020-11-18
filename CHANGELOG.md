@@ -1,3 +1,10 @@
+## [2.2.7](https://github.com/informatievlaanderen/hashcode-calculator/compare/v2.2.6...v2.2.7) (2020-11-18)
+
+
+### Bug Fixes
+
+* remove set-env usage in gh-actions ([f20b866](https://github.com/informatievlaanderen/hashcode-calculator/commit/f20b866f0b57d3a74d88160ff4bc0e9cd8f75cb8))
+
 ## [2.2.6](https://github.com/informatievlaanderen/hashcode-calculator/compare/v2.2.5...v2.2.6) (2020-09-21)
 
 
