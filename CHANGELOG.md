@@ -1,3 +1,10 @@
+## [2.2.10](https://github.com/informatievlaanderen/hashcode-calculator/compare/v2.2.9...v2.2.10) (2020-12-17)
+
+
+### Bug Fixes
+
+* make correct nuget ([c44d234](https://github.com/informatievlaanderen/hashcode-calculator/commit/c44d234daa1125ca35aa57e8b69e7751dedbd99a))
+
 ## [2.2.9](https://github.com/informatievlaanderen/hashcode-calculator/compare/v2.2.8...v2.2.9) (2020-12-17)
 
 
