@@ -16,7 +16,7 @@ let nugetVersionNumber = (sprintf "%s")
 
 let buildSource = build assemblyVersionNumber
 let buildTest = buildTest assemblyVersionNumber
-let publish = publish assemblyVersionNumber
+let publishSource = publish assemblyVersionNumber
 let pack = packSolution nugetVersionNumber
 
 supportedRuntimeIdentifiers <- [ "linux-x64" ]
@@ -27,9 +27,13 @@ Target.create "Lib_Build" (fun _ ->
     buildTest "Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator.Tests"
 )
 
-Target.create "Lib_Test" (fun _ -> [ "test" @@ "Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator.Tests" ] |> List.iter testWithDotNet)
+Target.create "Lib_Test" (fun _ -> 
+  [ 
+    "test" @@ "Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator.Tests" 
+  ] |> List.iter testWithDotNet
+)
 
-Target.create "Lib_Publish" (fun _ -> publish "Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator")
+Target.create "Lib_Publish" (fun _ -> publishSource "Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator")
 Target.create "Lib_Pack" (fun _ -> pack "Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator")
 
 // --------------------------------------------------------------------------------
