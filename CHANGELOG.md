@@ -1,3 +1,10 @@
+## [2.2.11](https://github.com/informatievlaanderen/hashcode-calculator/compare/v2.2.10...v2.2.11) (2021-02-02)
+
+
+### Bug Fixes
+
+* move to 5.0.2 ([0bc2e5d](https://github.com/informatievlaanderen/hashcode-calculator/commit/0bc2e5da79e0c6033b2eefe5ea81794774c11736))
+
 ## [2.2.10](https://github.com/informatievlaanderen/hashcode-calculator/compare/v2.2.9...v2.2.10) (2020-12-17)
 
 
