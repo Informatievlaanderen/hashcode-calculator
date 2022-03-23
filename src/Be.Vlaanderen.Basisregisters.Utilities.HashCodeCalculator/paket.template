@@ -15,8 +15,8 @@ licenseUrl https://opensource.org/licenses/MIT
 description Calculates hashcode based on given fields.
 
 dependencies
-  framework: net5.0
+  framework: net6.0
 
 files
-  bin\Release\net5.0\Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator.dll => lib\net5.0
-  bin\Release\net5.0\Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator.pdb => lib\net5.0
+  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator.dll => lib\net6.0
+  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculator.pdb => lib\net6.0
