@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/informatievlaanderen/hashcode-calculator/compare/v3.0.0...v4.0.0) (2024-03-06)
+
+
+### Features
+
+* move to dotnet 8.0.2 ([8d0fe2f](https://github.com/informatievlaanderen/hashcode-calculator/commit/8d0fe2f2cf9fe8a240aa509dfab5deac8a6eb952))
+
+
+### BREAKING CHANGES
+
+* move to dotnet 8.0.2
+
 # [3.0.0](https://github.com/informatievlaanderen/hashcode-calculator/compare/v2.2.12...v3.0.0) (2022-03-23)
 
 
