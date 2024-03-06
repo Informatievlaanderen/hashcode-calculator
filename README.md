@@ -1,4 +1,4 @@
-# Be.Vlaanderen.Basisregisters.HashCodeCalculator [![Build Status](https://github.com/Informatievlaanderen/hashcode-calculator/workflows/CI/badge.svg)](https://github.com/Informatievlaanderen/hashcode-calculator/actions)
+# Be.Vlaanderen.Basisregisters.HashCodeCalculator [![Build Status](https://github.com/Informatievlaanderen/hashcode-calculator/workflows/Build/badge.svg)](https://github.com/Informatievlaanderen/hashcode-calculator/actions)
 
 ## Goal
 
