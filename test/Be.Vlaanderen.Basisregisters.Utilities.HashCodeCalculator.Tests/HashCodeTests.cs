@@ -9,25 +9,25 @@ namespace Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculatorTests
     {
         private interface IHashCodeFields
         {
-            IEnumerable<object> HashCodeFields();
+            IEnumerable<object?> HashCodeFields();
         }
 
         private class Address : IHashCodeFields
         {
-            public string Address1 { get; }
+            public string? Address1 { get; }
 
-            public string City { get; }
+            public string? City { get; }
 
-            public string State { get; }
+            public string? State { get; }
 
-            public Address(string address1, string city, string state)
+            public Address(string? address1, string? city, string? state)
             {
                 Address1 = address1;
                 City = city;
                 State = state;
             }
 
-            public IEnumerable<object> HashCodeFields()
+            public IEnumerable<object?> HashCodeFields()
             {
                 yield return Address1;
                 yield return City;
@@ -62,7 +62,7 @@ namespace Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculatorTests
             T a,
             T b,
             Action<int, int> assertFunc,
-            Func<T, IEnumerable<object>> localHashCodeFields)
+            Func<T, IEnumerable<object?>> localHashCodeFields)
             where T : IHashCodeFields
         {
             // T.GetHashCode(t => ....)
@@ -86,14 +86,14 @@ namespace Be.Vlaanderen.Basisregisters.Utilities.HashCodeCalculatorTests
             assertFunc(hashA, hashB);
         }
 
-        IEnumerable<object> LocalHashCodeFields(Address x)
+        IEnumerable<object?> LocalHashCodeFields(Address x)
         {
             yield return x.Address1;
             yield return x.City;
             yield return x.State;
         }
 
-        IEnumerable<object> LocalHashCodeFields(ExpandedAddress x)
+        IEnumerable<object?> LocalHashCodeFields(ExpandedAddress x)
         {
             yield return ((Address)x).HashCodeFields();
             yield return x.Address2;
