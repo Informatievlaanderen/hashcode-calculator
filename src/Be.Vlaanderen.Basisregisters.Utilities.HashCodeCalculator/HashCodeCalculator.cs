@@ -22,13 +22,13 @@ namespace Be.Vlaanderen.Basisregisters.Utilities
     public static class HashCodeCalculator
     {
         // T.GetHashCode(t => ....)
-        public static int GetHashCode<T>(this T x, Func<T, IEnumerable<object>> hashFieldValuesFunc) => GetHashCode(hashFieldValuesFunc(x));
+        public static int GetHashCode<T>(this T x, Func<T, IEnumerable<object?>> hashFieldValuesFunc) => GetHashCode(hashFieldValuesFunc(x));
 
         // HashCodeCalculator.GetHashCode(() => ....)
-        public static int GetHashCode(Func<IEnumerable<object>> hashFieldValuesFunc) => GetHashCode(hashFieldValuesFunc());
+        public static int GetHashCode(Func<IEnumerable<object?>> hashFieldValuesFunc) => GetHashCode(hashFieldValuesFunc());
 
         // HashCodeCalculator.GetHashCode(....)
-        public static int GetHashCode(IEnumerable<object> hashFieldValues)
+        public static int GetHashCode(IEnumerable<object?> hashFieldValues)
         {
             // Naive .NET implementation
             //var offset = 17;
@@ -42,7 +42,7 @@ namespace Be.Vlaanderen.Basisregisters.Utilities
             const int offset = unchecked((int) 2166136261);
             const int prime = 16777619;
 
-            int HashCodeAggregator(int hashCode, object value) => value == null
+            int HashCodeAggregator(int hashCode, object? value) => value is null
                 ? (hashCode ^ 0) * prime
                 : (hashCode ^ value.GetHashCode()) * prime;
 
