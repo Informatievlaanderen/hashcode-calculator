@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/informatievlaanderen/hashcode-calculator/compare/v4.0.0...v5.0.0) (2025-04-04)
+
+
+### Code Refactoring
+
+* use renovate and nuget + update pipeline ([a9036c3](https://github.com/informatievlaanderen/hashcode-calculator/commit/a9036c39eb058ec3a95c486c88c76264c574b86d))
+
+
+### BREAKING CHANGES
+
+* update to dotnet 9
+
 # [4.0.0](https://github.com/informatievlaanderen/hashcode-calculator/compare/v3.0.0...v4.0.0) (2024-03-06)
 
 
