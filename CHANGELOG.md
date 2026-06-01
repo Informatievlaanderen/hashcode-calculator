@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/informatievlaanderen/hashcode-calculator/compare/v5.0.0...v5.1.0) (2026-06-01)
+
+
+### Features
+
+* update packages ([1ac05c5](https://github.com/informatievlaanderen/hashcode-calculator/commit/1ac05c5b60a4a3c1fe21778ba9b9fd3fb40aba1b))
+
 # [5.0.0](https://github.com/informatievlaanderen/hashcode-calculator/compare/v4.0.0...v5.0.0) (2025-04-04)
 
 
